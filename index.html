@@ -6,6 +6,18 @@
     <meta name="description" content="Simple site example">
     <link rel="stylesheet" href="./styles/layout.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <style>
+        .grid{
+            border:4px solid blue;
+            display:grid;
+            grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)
+        }
+        .grid>div{
+            border:2px solid red;
+            min-height:200px;
+        }
+    </style>
+    
     <title>Entreprise&trade;</title>
 </head>
 <body>
@@ -30,8 +42,35 @@
             </nav>
         </header>
         <main>
-
-
+            <section>
+                <h2>Grid</h2>
+                <div class="grid">
+                    <div>
+                        <article></article>
+                        <article></article>
+                        <article></article>
+                        <article></article>
+                    </div>
+                    <div>
+                        <article></article>
+                        <article></article>
+                        <article></article>
+                        <article></article>
+                    </div>
+                    <div>
+                        <article></article>
+                        <article></article>
+                        <article></article>
+                        <article></article>
+                    </div>
+                    <div>
+                        <article></article>
+                        <article></article>
+                        <article></article>
+                        <article></article>
+                    </div>
+                </div>                
+            </section>
         </main>
         <footer>
             <p>Entreprise&copy;2024</p>
