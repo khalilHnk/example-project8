@@ -98,6 +98,6 @@ footer{
     flex:1 1 var(--col-width);
     min-height:40px
 }
-.grid:nth-child(odd){
+.grid article:nth-child(odd){
     background-color:rgba(0,128,0,.2)
 }
