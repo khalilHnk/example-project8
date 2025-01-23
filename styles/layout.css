@@ -82,14 +82,14 @@ footer{
             grid-template-rows:auto;
             justify-content:center
         }
-        .grid>div{
+        .grid>.item{
             border:2px solid red;
             min-height:200px;
             display:flex;
             flex-flow:row wrap;
             justify-content:center
         }
-        .grid article{
+        .grid .article{
             border:1px solid green;
             background-color:rgba(255,255,0,.2);
             flex:1 1 200px;
